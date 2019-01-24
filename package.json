@@ -1,0 +1,13 @@
+{
+	"name": "bot",
+	"version": "1.0.0",
+	"description": "bot bot",
+	"main": "bot.js",
+	"author": "Patches",
+	"dependencies": {
+		"discord.js": "^11.4.2",
+		"dotenv": "^6.2.0",
+		"request": "^2.88.0",
+		"seedrandom": "^2.4.4"
+	}
+}
