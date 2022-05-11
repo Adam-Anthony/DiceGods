@@ -132,8 +132,8 @@ var options = {
 		method: 'generateStrings',
 		params: {
 			apiKey: process.env.RANDOM_API_KEY,
-			n: `${n}`,
-			length: `${len}`,
+			n: 1,
+			length: 14,
 			characters: `${ls}`,
 			replacement: true,
 		},
