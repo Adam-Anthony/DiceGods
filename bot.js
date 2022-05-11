@@ -128,16 +128,16 @@ var n = 1;
 var len = 14;
 var ls = 'abcdefghijklmnopqrstuvwxyz 0123456789'
 var options = {
-		"jsonrpc": "2.0",
-		"method": "generateString",
-		"params": {
-			"apiKey": process.env.RANDOM_API_KEY,
-			"n": 1,
-			"length": 14,
-			"characters": "abcdefghijklmnopqrstuvwxyz 0123456789",
-			"replacement": true
+		jsonrpc: "2.0",
+		method: "generateString",
+		params: {
+			apiKey: process.env.RANDOM_API_KEY,
+			n: 1,
+			length: 14,
+			characters: "abcdefghijklmnopqrstuvwxyz 0123456789",
+			replacement: true
 		},
-		'id': 7294
+		id: 7294
 	}
 	request.post('https://api.random.org/json-rpc/1/invoke',
 	{
