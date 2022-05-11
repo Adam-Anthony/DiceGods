@@ -129,12 +129,12 @@ var len = 14;
 var ls = 'abcdefghijklmnopqrstuvwxyz 0123456789'
 var options = {
 		jsonrpc: "2.0",
-		method: "generateString",
+		method: "generateStrings",
 		params: {
 			apiKey: process.env.RANDOM_API_KEY,
 			n: 1,
 			length: 14,
-			characters: "abcdefghijklmnopqrstuvwxyz 0123456789",
+			characters: "abcdefghijklmnopqrstuvwxyz0123456789",
 			replacement: true
 		},
 		id: 7294
